@@ -1,5 +1,4 @@
 .home-wrapper {
-  height: calc(100vh - 106px);
   background-image: url("../../assets/home-bg-cat.png"),
     url("../../assets/home-bg-figures.png");
   background-position: top, 0% 5%;

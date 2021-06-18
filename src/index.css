@@ -4,6 +4,8 @@
 }
 
 body {
+  position: relative;
+
   font-family: "Manrope", sans-serif;
   line-height: 1.3;
 }
