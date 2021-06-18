@@ -1,5 +1,9 @@
 /* Global CSS styles */
 
+body {
+  font-family: "Manrope", sans-serif;
+}
+
 img {
   max-width: 100%;
   height: auto;
