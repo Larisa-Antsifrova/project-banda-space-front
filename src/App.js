@@ -1,8 +1,15 @@
+import Container from "./components/Container/Container";
+import AppBarTop from "./components/AppBarTop/AppBarTop";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello there</h1>
-    </div>
+    <>
+      <AppBarTop>
+        <Container>
+          <h1>Logo</h1>
+        </Container>
+      </AppBarTop>
+    </>
   );
 }
 
