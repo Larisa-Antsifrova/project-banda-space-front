@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./AppBarBottom.module.css";
 import Container from "../Container/Container";
 import { ReactComponent as AddIcon } from "../../assets/add-icon.svg";
@@ -8,8 +9,12 @@ const AppBarTop = () => {
     <div className={styles["bar-bottom"]}>
       <Container>
         <div className={styles["bar-bottom-buttons-wrapper"]}>
-          <AddIcon />
-          <SettingsIcon />
+          <Link to="/edit">
+            <AddIcon />
+          </Link>
+          <Link to="/settings">
+            <SettingsIcon />
+          </Link>
         </div>
       </Container>
     </div>
