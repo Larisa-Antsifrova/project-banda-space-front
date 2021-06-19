@@ -1,5 +1,11 @@
+import Container from "../../components/Container/Container";
+
 const EntriesPage = () => {
-  return <h1>Entries Page</h1>;
+  return (
+    <Container>
+      <h1>Entries Page</h1>
+    </Container>
+  );
 };
 
 export default EntriesPage;
