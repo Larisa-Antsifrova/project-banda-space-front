@@ -7,7 +7,7 @@ const AppBarTop = () => {
   return (
     <header className={styles.header}>
       <Container>
-        <Link to="/">
+        <Link to="/" className={styles.logo}>
           <Logo />
         </Link>
       </Container>

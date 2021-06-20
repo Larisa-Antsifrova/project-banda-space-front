@@ -9,10 +9,10 @@ const AppBarTop = () => {
     <div className={styles["bar-bottom"]}>
       <Container>
         <div className={styles["bar-bottom-buttons-wrapper"]}>
-          <Link to="/edit">
+          <Link to="/edit" className={styles.button}>
             <AddIcon />
           </Link>
-          <Link to="/settings">
+          <Link to="/settings" className={styles.button}>
             <SettingsIcon />
           </Link>
         </div>
