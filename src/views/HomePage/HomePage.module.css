@@ -1,9 +1,0 @@
-.home-wrapper {
-  background-image: url("../../assets/home-bg-cat.png"),
-    url("../../assets/home-bg-figures.png");
-  background-position: top, 0% 5%;
-  background-repeat: no-repeat;
-  background-size: 80%, 100%;
-
-  padding-top: 50vh;
-}
